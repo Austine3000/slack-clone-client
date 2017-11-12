@@ -13,7 +13,7 @@ export default observer(class Login extends React.Component {
         });
     }
 
-    onsubmit = () => {
+    onSubmit = () => {
         const { email, password } = this;
         console.log(email);
         console.log(password);
