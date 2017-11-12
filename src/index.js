@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
 import { ApolloClient , createNetworkInterface, ApolloProvider } from 'react-apollo'; 
 
+import 'semantic-ui-css/semantic.min.css';
+
 import Routes from './routes';
 
 const networkInterface = createNetworkInterface ({
